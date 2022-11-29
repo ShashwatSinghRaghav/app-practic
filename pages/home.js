@@ -23,8 +23,8 @@ const Home = () => {
   ];
   return (
     <SafeAreaView>
-      <Logo />
-      <Gallery style={styles.gallery} data={data} />
+      <Logo style={styles.Logo} />
+      <Gallery data={data} />
     </SafeAreaView>
   );
 };
@@ -32,7 +32,7 @@ const Home = () => {
 export default Home;
 
 const styles = StyleSheet.create({
-  gallery: {
-    paddingTop: 10,
+  Logo: {
+    paddingBottom: 20,
   },
 });
